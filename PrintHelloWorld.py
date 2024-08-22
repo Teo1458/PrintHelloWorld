@@ -14,10 +14,10 @@ while len(testo) != h:
         if alfabeto[i] != testo[h]:
             
             print (appoggio + alfabeto[i], end ='\r')
-            time.sleep(0.02)
+            time.sleep(0.05)
         elif alfabeto[i] == testo[h]:
                 appoggio = (appoggio + testo[h])
                 h+=1
-                i=0
+                
                 print (appoggio)
-                time.sleep (0.1)
+                time.sleep (0.05)
